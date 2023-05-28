@@ -1,55 +1,130 @@
 {
-  "title":"Você seria um heroi ou vilão ?",
-  "questions":[
+  "title": "Quem você seria no minecraft",
+  "questions": [
     {
-      "id":1,
-      "question": "Qual super poder você escolheria ?",
-      "options":[
-        {"id": 1, "name":"Raios-Lasers", "alias":"A"},
-        {"id": 2, "name":"Voar", "alias":"B"},
-        {"id": 3, "name":"Explodir coisas", "alias":"A"},
-        {"id": 4, "name":"Curar feridas", "alias":"B"},
-        {"id": 5, "name":"Soltar fogo pelas mãos", "alias":"A"}
+      "id": 1,
+      "question": "O que é um mob ?",
+      "image":"",
+      "options": [
+        {
+          "id": 1,
+          "name": "Bomba usada para eliminar inimigos",
+          "counter": "1"
+        },
+        {
+          "id": 2,
+          "name": "Mecanismo que adiciona mais elementos ao jogo base",
+          "counter": "0"
+        },
+        { "id": 3, "name": "O que é Minecraft ?", "counter": "0" },
+        { "id": 4, "name": "Poção de cura", "counter": "0" },
+        { "id": 5, "name": "Seres vivos", "counter": "1" }
       ]
     },
     {
-      "id":2,
-      "question": "Quem você salvaria primeiro ?",
-      "options":[
-        {"id": 1, "name":"Crianças", "alias":"A"},
-        {"id": 2, "name":"Idosos", "alias":"A"},
-        {"id": 3, "name":"Não saberia escolher", "alias":"B"}
+      "id": 2,
+      "question": "O creeper tem medo de ...",
+      "image":"",
+      "options": [
+        { "id": 1, "name": "Crianças", "counter": "2" },
+        { "id": 2, "name": "Gatos", "counter": "1" },
+        { "id": 3, "name": "Bolo", "counter": "0" },
+        { "id": 4, "name": "Peixes", "counter": "0" },
+        { "id": 5, "name": "Pandas", "counter": "0" }
       ]
     },
     {
-      "id":3,
-      "question": "Qual a sua maior preocupação ao enfretar outro super ser ?",
-      "options":[
-        {"id": 1, "name":"Não destruir prédios", "alias":"B"},
-        {"id": 2, "name":"Socar a cara do inimigo", "alias":"A"},
-        {"id": 3, "name":"Não sujar meu traje", "alias":"A"},
-        {"id": 4, "name":"Não deixar ninguém se ferir", "alias":"B"}
+      "id": 3,
+      "question": "Picareta de pedra quebra ferro ?",
+      "image":"",
+      "options": [
+        { "id": 1, "name": "É óbvio que sim", "counter": "1" },
+        { "id": 2, "name": "Você acha que eu sou idiota ?", "counter": "1" },
+        { "id": 3, "name": "Quebra até diamante", "counter": "0" },
+        { "id": 4, "name": "Esse é um jogo de mineiro ?", "counter": "0" }
       ]
     },
     {
-      "id":4,
-      "question": "Qual o seu maior foco ?",
-      "options":[
-        {"id": 1, "name":"Ficar rico com poderes", "alias":"A"},
-        {"id": 2, "name":"Salvar a cidade", "alias":"B"}
+      "id": 4,
+      "question": "5 esmeraldas por um chapéu de couro é uma boa troca ?",
+      "image":"",
+      "options": [
+        { "id": 1, "name": "SIM", "counter": "0" },
+        { "id": 2, "name": "hmm", "counter": "0" },
+        { "id": 3, "name": "Não", "counter": "1" }
       ]
     },
     {
-      "id":5,
-      "question": "Qual o seu apelido de super ser ?",
-      "options":[
-        {"id": 1, "name":"O Terrivel", "alias":"A"},
-        {"id": 2, "name":"Amigo da vizinhança", "alias":"B"}
+      "id": 5,
+      "question": "Você comeria carne podre para sobreviver uma noite ?",
+      "image":"",
+      "options": [
+        { "id": 1, "name": "Tudo pela sobrevivência", "counter": "1" },
+        { "id": 2, "name": "Eu comeria olhos de aranha", "counter": "0" },
+        { "id": 3, "name": "Eu comeria terra", "counter": "0" },
+        { "id": 4, "name": "Claro que não", "counter": "1" },
+        { "id": 5, "name": "BRAAAAAAAAINS", "counter": "0" }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "Quem é mais perigoso ?",
+      "image":"",
+      "options": [
+        { "id": 1, "name": "Ender dragon", "counter": "1" },
+        { "id": 2, "name": "Creeper Charged", "counter": "0" },
+        { "id": 3, "name": "Enderman", "counter": "0" },
+        { "id": 4, "name": "Jockey", "counter": "1" },
+        { "id": 5, "name": "Bebê zumbi", "counter": "5" }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "O que causa mais dano ?",
+      "image":"",
+      "options": [
+        { "id": 1, "name": "Espada de netherite", "counter": "1" },
+        { "id": 2, "name": "OS MEUS PUNHOS MOTIVADOS", "counter": "1" },
+        { "id": 3, "name": "Vareta", "counter": "0" },
+        { "id": 4, "name": "Enxada carregada de ódio", "counter": "1" },
+        { "id": 2, "name": "Machado de diamante", "counter": "0" }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "O pigman é um amigo",
+      "image":"",
+      "options": [
+        { "id": 1, "name": "Sim", "counter": "0" },
+        { "id": 2, "name": "Não", "counter": "0" },
+        { "id": 3, "name": "Ouro", "counter": "3" }
       ]
     }
   ],
-  "results":{
-    "A": "Você muito provavelmente seria um super vilão!",
-    "B": "Você muito provavelmente seria um super Herói!"
-  }
+  "results": [
+    {
+      "mob": "Morcego",
+      "description": ""
+    },
+    {
+      "mob": "Zumbi",
+      "description": ""
+    },
+    {
+      "mob": "Villager",
+      "description": ""
+    },
+    {
+      "mob": "Golem de ferro",
+      "description": ""
+    },
+    {
+      "mob": "Steve",
+      "description": ""
+    },
+    {
+      "mob": "Herobrine",
+      "description": ""
+    }
+  ]
 }
