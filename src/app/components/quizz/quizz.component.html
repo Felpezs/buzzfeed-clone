@@ -4,6 +4,7 @@
     <h3>{{ title }}</h3>
   </div>
   <div *ngIf="!finished" class="quizz_questions">
+    <img src="{{questionSelected.image}}" alt="">
     <h3>{{ questionSelected.question }}</h3>
   </div>
   <div *ngIf="!finished" class="quizz_options">
@@ -17,6 +18,11 @@
   </div>
   <div *ngIf="finished" class="quizz_results">
     <h1>O seu resultado é:</h1>
+    <img src="{{answerSelected.image}}" alt="">
     <p>{{answerSelected.mob}}</p>
+    <p>{{answerSelected.description}}</p>
+  </div>
+  <div *ngIf="finished" class="quizz_redo">
+    <button class="btn_option" (click)="redo()">Refazer o teste</button>
   </div>
 </div>

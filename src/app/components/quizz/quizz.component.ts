@@ -11,10 +11,11 @@ export class QuizzComponent implements OnInit {
   questions: any;
   questionSelected: any;
   answers: number = 0;
-  answerSelected: { mob: string; description: string} | any;
+  answerSelected: { mob: string; description: string } | any;
   questionIndex: number = 0;
   questionMaxIndex: number = 0;
   finished: boolean = false;
+  image: string = '';
 
   constructor() {}
 
@@ -51,5 +52,11 @@ export class QuizzComponent implements OnInit {
     if (result >= 8 && result < 10) return quizz_questions.results[3];
     if (result >= 10 && result < 12) return quizz_questions.results[4];
     else return quizz_questions.results[5];
+  }
+
+  redo(){
+    this.finished = false;
+    this.questionIndex = 0
+    this.questionSelected = this.questions[this.questionIndex];
   }
 }
